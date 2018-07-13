@@ -92,7 +92,7 @@ public class CirclesManager extends SimpleViewManager<CircleProgressView> {
         if(_animated)
             view.setValueAnimated(val) ;
         else
-            view.setValue(val, 250);
+            view.setValueAnimated(val, 250);
     }
 
     @ReactProp(name = "rimColor")
